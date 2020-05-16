@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "/Applications/PyCharm CE.app/Contents/helpers/pydev/pydevd.py", line 2066, in <module>
+    main()
+  File "/Applications/PyCharm CE.app/Contents/helpers/pydev/pydevd.py", line 2060, in main
+    globals = debugger.run(setup['file'], None, None, is_module)
+  File "/Applications/PyCharm CE.app/Contents/helpers/pydev/pydevd.py", line 1411, in run
+    return self._exec(is_module, entry_point_fn, module_name, file, globals, locals)
+  File "/Applications/PyCharm CE.app/Contents/helpers/pydev/pydevd.py", line 1418, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "_pydevd_bundle/pydevd_cython_darwin_37_64.pyx", line 1029, in _pydevd_bundle.pydevd_cython_darwin_37_64.SafeCallWrapper.__call__
+  File "_pydevd_bundle/pydevd_cython_darwin_37_64.pyx", line 1203, in _pydevd_bundle.pydevd_cython_darwin_37_64.TopLevelThreadTracerOnlyUnhandledExceptions.trace_unhandled_exceptions
+  File "/Applications/PyCharm CE.app/Contents/helpers/pydev/_pydevd_bundle/pydevd_breakpoints.py", line 156, in stop_on_unhandled_exception
+    py_db.stop_on_unhandled_exception(thread, frame, frames_byid, arg)
+  File "/Applications/PyCharm CE.app/Contents/helpers/pydev/pydevd.py", line 1198, in stop_on_unhandled_exception
+    raise e
+  File "/Applications/PyCharm CE.app/Contents/helpers/pydev/pydevd.py", line 1196, in stop_on_unhandled_exception
+    self.do_wait_suspend(thread, frame, 'exception', arg, is_unhandled_exception=True)
+  File "/Applications/PyCharm CE.app/Contents/helpers/pydev/pydevd.py", line 1043, in do_wait_suspend
+    def do_wait_suspend(self, thread, frame, event, arg, send_suspend_message=True, is_unhandled_exception=False): #@UnusedVariable
+  File "/Applications/PyCharm CE.app/Contents/helpers/pydev/pydevd.py", line 1090, in _do_wait_suspend
+    def _do_wait_suspend(self, thread, frame, event, arg, suspend_type, from_this_thread):
+KeyboardInterrupt
